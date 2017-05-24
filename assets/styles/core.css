@@ -107,15 +107,28 @@ mark {
 #contact-form p { position:relative; margin:0px 0px 10px 0px; }
 #contact-form label { display:inline; position:absolute; left:21px; font-weight:300; color:#33373a; }
 
+#contact-for { padding:0; margin:0; }
+#contact-for p { position:relative; margin:0px 0px 10px 0px; }
+#contact-for label { display:inline; position:absolute; left:21px; font-weight:300; color:#33373a; }
+
 #contact-form a.butn { float:none; margin-top:20px; }
 #contact-form a.butn.error { color:#ca3f52 !important; }
+#contact-form a.butn.dis { pointer-events: none; cursor: default; }
+
+#contact-for a.butn { float:none; margin-top:20px; }
+#contact-for a.butn.error { color:#ca3f52 !important; }
 #contact-form a.butn.dis { pointer-events: none; cursor: default; }
 
 #contact-form input[type=text] { padding:14px 19px; font-weight:300; color:#33373a; }
 #contact-form textarea { min-height:90px; padding:16px 19px; font-weight:300; color:#33373a; }
 #contact-form input[type=text], #contact-form textarea { border:none; }
 
+#contact-for input[type=text] { padding:14px 19px; font-weight:300; color:#33373a; }
+#contact-for textarea { min-height:90px; padding:16px 19px; font-weight:300; color:#33373a; }
+#contact-for input[type=text], #contact-for textarea { border:none; }
+
 #contact-form input[type=text].error, #contact-form textarea.error { background-color: #ca3f52; }
+#contact-for input[type=text].error, #contact-for textarea.error { background-color: #ca3f52; }
 
 .contact span { float:left; width:100%; text-align:center; }
 .contactSep { height:35px; }
@@ -158,10 +171,10 @@ mark {
 
 
 .butn { display:block; float:left; background:transparent; font-weight:700; border-style:solid; border-width:2px; -webkit-transition: .2s all linear; -moz-transition: .2s all linear; -ms-transition: .2s all linear; -o-transition: .2s all linear; }
-.butn.white { border-color:#FFF; color:#FFF; }
+.butn.white {border-color:#FFF; color:#FFF; }
 .butn.black { border-color:#000; color:#000; }
 .butn.big { padding:20px 30px; }
-
+.butn.whit {  border-color:#44B7E2; color:#44B7E2; }
 .butn:hover { text-decoration:none; color:#FFF; }
 /*Buttons End*/
 
@@ -255,4 +268,4 @@ background-color:#44b7e2}
 
 100%{}
 }
-/*Loading Endj*/
+/*Loading End*/
